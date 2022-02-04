@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Dashboard
+
+## Nuxt 3
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
+
+## Dependencies
+
+[Nuxt 3, TypeScript]
 
 ## Setup
 
