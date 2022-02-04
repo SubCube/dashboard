@@ -11,6 +11,7 @@
 			</div>
 			<Welcome />
 			<DailyTask />
+			<Shared />
 
 			{{ counter }}
 
@@ -22,7 +23,7 @@
 <script lang="ts" setup>
 import { storeToRefs } from 'pinia'
 import { useStore } from '~~/store'
-import Meetings from '~~/components/Meetings.vue'
+
 const store = useStore()
 
 const { counter } = storeToRefs(store)
