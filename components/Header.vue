@@ -19,19 +19,24 @@
 			</NuxtLink>
 		</nav>
 
-		<button class="logout" active-class="active">
+		<button class="logout" active-class="active" @click="logout('logout')">
 			<img src="/icons/logout.svg" alt="logout-icon" />
 		</button>
 	</header>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const logout = (message: string): void => {
+	alert(message)
+}
+</script>
 
 <style lang="scss" scoped>
 header {
 	padding: 22px;
 	background-color: rgb(250, 240, 236);
 	height: 100vh;
+	// height: auto;
 	overflow: auto;
 	display: flex;
 	flex-direction: column;
