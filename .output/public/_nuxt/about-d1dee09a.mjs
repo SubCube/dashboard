@@ -1,0 +1,1 @@
+import{_ as o,c as t,o as s,a as e}from"./bootstrap-8f944e24.mjs";const a={},c=e("h1",null,"INDEX PAGE",-1),n=e("span",null,"4",-1),_=[c,n];function r(l,d){return s(),t("div",null,_)}var i=o(a,[["render",r]]);export{i as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as s,o,a as t}from"./bootstrap-8f944e24.mjs";const a={},c=t("h1",null,"Message PAGE",-1),r=[c];function n(_,l){return o(),s("div",null,r)}var f=e(a,[["render",n]]);export{f as default};

@@ -1,0 +1,1 @@
+import _ from"./Header-029a2bfd.mjs";import{_ as a,c as o,f as r,j as s,o as n}from"./bootstrap-8f944e24.mjs";const c={},d={class:"main"};function f(e,l){const t=_;return n(),o("div",d,[r(t),s(e.$slots,"default",{},void 0,!0)])}var p=a(c,[["render",f],["__scopeId","data-v-5b9aa44e"]]);export{p as default};
