@@ -4,4 +4,5 @@ import { defineNuxtConfig } from 'nuxt3'
 export default defineNuxtConfig({
 	buildModules: ['@pinia/nuxt'],
 	css: ['~/assets/style/index.scss'],
+	target: 'static',
 })
