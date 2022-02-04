@@ -10,6 +10,7 @@
 				<input type="text" placeholder="Search" />
 			</div>
 			<Welcome />
+			<DailyTask />
 
 			{{ counter }}
 
@@ -53,6 +54,8 @@ definePageMeta({
 	.block {
 		flex: 1;
 		padding: 32px 65px;
+		height: 100vh;
+		overflow: auto;
 		.search {
 			display: flex;
 			justify-content: flex-end;
