@@ -21,7 +21,7 @@ yarn install
 Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+yarn run dev
 ```
 
 ## Production
@@ -29,7 +29,7 @@ yarn dev
 Build the application for production:
 
 ```bash
-yarn build
+yarn run build
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
